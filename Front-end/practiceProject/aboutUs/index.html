@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Background Changer</title>
+    <style>
+      body {
+        margin: 0px;
+        padding: 20px, 100px;
+      }
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+      }
+      p {
+        font-size: 18px;
+        text-align: justify;
+      }
+      .btn {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        border: solid grey;
+        border-radius: 50px;
+        cursor: pointer;
+      }
+      #image {
+        width: 80%;
+        height: 60%;
+        margin: 10px 10px 10px 100px;
+        display: flexbox;
+      }
+      #violet {
+        background-color: violet;
+      }
+      #aqua {
+        background-color: aquamarine;
+      }
+      #white {
+        background-color: white;
+      }
+      #black {
+        background-color: black;
+      }
+      #color-switcher {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="color-switcher">
+      <span class="btn" id="white" onclick="changeBG('#ffffff')"> </span>
+      <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+      <span class="btn" id="violet" onclick="changeBG('#ce9aff')"></span>
+      <span class="btn" id="black" onclick="changeBG('#000000')"></span>
+    </div>
+    <h1 class="text">About Us</h1>
+    <img
+      src="https://www.susangreenecopywriter.com/wp-content/uploads/2013/01/iStock_000039291924_Medium.jpg"
+      id="image"
+      alt=""
+    />
+    <p class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima itaque
+      earum cumque ipsa. Doloribus facilis fugit unde quaerat incidunt magni
+      officia eum iusto, delectus veniam dignissimos blanditiis at, saepe
+      veritatis laborum reiciendis mollitia beatae nobis quis voluptas minus.
+      Optio molestias, nesciunt eos accusamus vitae culpa quo ducimus officiis
+      distinctio sapiente recusandae quos perferendis praesentium molestiae?
+      Nemo repudiandae, iusto, dicta deserunt fuga recusandae vitae omnis modi
+      nam tempore fugit, qui veniam est a in asperiores consequatur quasi id
+      numquam aperiam! Quisquam nisi facere odio ut dolorum nobis laborum
+      nostrum accusamus dicta aut pariatur quas aperiam, obcaecati dolor
+      voluptas distinctio culpa repellat.
+    </p>
+    <script>
+      function changeBG(color) {
+        document.body.style.backgroundColor = color;
+        let txt = document.getElementsByClassName("text");
+        if (color == "#000000") {
+          for (let elm of txt) {
+            elm.style.color = "white";
+          }
+        } else {
+          for (let elm of txt) {
+            elm.style.color = "black";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
