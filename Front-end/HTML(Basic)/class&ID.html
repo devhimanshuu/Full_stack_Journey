@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Classes are identifiers for the elements that they are assigned to. Use the
+    class attribute to assign a class to an element. -->
+    <div class="example-class"></div>
+    <!-- To assign multiple classes to an element, separate the class names with
+    spaces. -->
+    <div class="class1 class2"></div>
+    <!-- Using classes in CSS Classes can be used for styling certain elements
+    without changing all elements of that kind. For example, these two span
+    elements can have completely different stylings: -->
+    <span></span>
+    <span class="special"></span>
+    <!-- Classes of the same name can be given to any number of elements on a page
+    and they will all receive the styling associated with that class. This will
+    always be true unless you specify the element within the CSS. For example,
+    we have two elements, both with the class highlight: -->
+    <div class="highlight">Lorem ipsum</div>
+    <span class="highlight">Lorem ipsum</span>
+
+    <!-- If our CSS is as below, then the color green will be applied to the text
+    within both elements: .highlight { color: green; } However, if we only want
+    to target div's with the class highlight then we can add specificity like
+    below: div.highlight { color: green; } -->
+
+    <!-- The ID attribute of an element is an identifier which must be unique in the
+    whole document. Its purpose is to uniquely identify the element when linking
+    (using an anchor), scripting, or styling (with CSS). -->
+    <div id="example-id"></div>
+    <!-- You should not have two elements with the same ID in the same document, even
+    if the attributes are attached to two different kinds of elements. For
+    example, the following code is incorrect: -->
+    <div id="example-id"></div>
+    <span id="example-id"></span>
+    <!-- Browsers will do their best to render this code, but unexpected behavior may
+    occur when styling with CSS or adding functionality with JavaScript. To
+    reference elements by their ID in CSS, prefix the ID with #. #example-id {
+    color: green; } To jump to an element with an ID on a given page, append #
+    with the element name in the URL. http://example.com/about#example-id This
+    feature is supported in most browsers and does not require additional
+    JavaScript or CSS to work. -->
+  </body>
+</html>
