@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- The HTML <table> element allows web authors to display tabular data (such as text, images, links, other tables,
+         etc.) in a two dimensional table with rows and columns of cells. -->
+    <table>
+      <tr>
+        <th>Heading 1/Column 1</th>
+        <th>Heading 2/Column 2</th>
+      </tr>
+      <tr>
+        <td>Row 1 Data Column 1</td>
+        <td>Row 1 Data Column 2</td>
+      </tr>
+      <tr>
+        <td>Row 2 Data Column 1</td>
+        <td>Row 2 Data Column 2</td>
+      </tr>
+    </table>
+    <!-- This will render a <table> consisting of three total rows (<tr>): one row of header cells (<th>) and two rows of
+        content cells (<td>). <th> elements are tabular headers and <td> elements are tabular data. You can put whatever
+        you want inside a <td> or <th>.
+        Heading 1/Column 1 Heading 2/Column 2
+        Row 1 Data Column 1 Row 1 Data Column 2
+        Row 2 Data Column 1 Row 2 Data Column 2 -->
+
+    <!-- Table cells can span multiple columns or rows using the colspan and rowspan
+    attributes. These attributes can be applied to -->
+    <th>and</th>
+    <td>
+      elements.
+      <table>
+        <tr>
+          <td>row 1 col 1</td>
+          <td>row 1 col 2</td>
+          <td>row 1 col 3</td>
+        </tr>
+        <tr>
+          <td colspan="3">This second row spans all three columns</td>
+        </tr>
+        <tr>
+          <td rowspan="2">This cell spans two rows</td>
+          <td>row 3 col 2</td>
+          <td>row 3 col 3</td>
+        </tr>
+        <tr>
+          <td>row 4 col 2</td>
+          <td>row 4 col 3</td>
+        </tr>
+      </table>
+    </td>
+    <!-- The optional <colgroup> tag allows you to group columns together. <colgroup> elements must be child elements
+        of a <table> and must come after any <caption> elements and before any table content (e.g., <tr>, <thead>,
+        <tbody>, etc.). -->
+    <table>
+      <colgroup span="2"></colgroup>
+      <colgroup span="2"></colgroup>
+      ...
+    </table>
+  </body>
+</html>
