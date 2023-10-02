@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- This is the basic use of the <a> (anchor element) element: -->
+    <a href="http://example.com/">Link to example.com</a>
+    <!-- To denote that this link leads to an external website, you can use the external link type: -->
+    <a href="http://example.com/" rel="external">example site</a>
+    <!-- You can link to a site that uses a protocol other than HTTP. For example, to link to an FTP site, you can do, -->
+    <a href="ftp://example.com/">This could be a link to a FTP site</a>
+
+    <!-- If the value of the href-attribute begins with tel:, your device will dial the number when you click it. This works on
+mobile devices or on computers/tablets running software – like Skype or FaceTime – that can make phone calls.
+GoalKicker.com – HTML5 Notes for Professionals 13 -->
+    <a href="tel:11234567890">Call us</a>
+
+    <a href="example.com" target="_blank">Text Here</a>
+    <!-- The target attribute specifies where to open the link. By setting it to
+    _blank, you tell the browser to open it in a new tab or window (per user
+    preference). -->
+
+    <!-- Basic usage If the value of the href-attribute begins with mailto: it will
+    try to open an email client on click: -->
+    <a href="mailto:example@example.com">Send email</a>
+    <!-- This will put the email address example@example.com as the recipient for the
+    newly created email. Cc and Bcc You can also add addresses for cc- or
+    bcc-recipients using the following syntax: -->
+    <a
+      href="mailto:example@example.com?cc=john@example.com&bcc=jane@example.com"
+      >Send email</a
+    >
+    <!-- s -->
+    <a
+      href="mailto:example@example.com?subject=Example+subject&body=Message+text"
+      >Send email</a
+    >
+  </body>
+</html>
