@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- HTML also provides the tables with the <thead>, <tbody>, <tfoot>, and <caption> elements. These additional
+        elements are useful for adding semantic value to your tables and for providing a place for separate CSS styling. -->
+    <table>
+      <caption>
+        Table Title
+      </caption>
+      <!--| caption is the first child of table |-->
+      <thead>
+        <!--======================| thead is after caption |-->
+        <tr>
+          <th>Header content 1</th>
+          <th>Header content 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!--======================| tbody is after thead |-->
+        <tr>
+          <td>Body content 1</td>
+          <td>Body content 2</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <!--| tfoot can be placed before or after tbody, but not in a group of tbody. |-->
+        <!--| Regardless where tfoot is in markup, it is rendered at the bottom. |-->
+
+        <tr>
+          <td>Footer content 1</td>
+          <td>Footer content 2</td>
+        </tr>
+      </tfoot>
+    </table>
+    <!-- th elements are very commonly used to indicate headings for table rows and columns, like so: -->
+    <table>
+      <thead>
+        <tr>
+          <td></td>
+          <th>Column Heading 1</th>
+          <th>Column Heading 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Row Heading 1</th>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>Row Heading 2</th>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <td></td>
+          <th scope="col">Column Heading 1</th>
+          <th scope="col">Column Heading 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Row Heading 1</th>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">Row Heading 1</th>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
