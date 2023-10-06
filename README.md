@@ -58,7 +58,7 @@ Feel free to explore these projects and their code repositories for a deeper und
 Learning is an ongoing process, and I've benefited from various resources, tutorials, and books. Check out my curated list of resources [here](Link to Resources.md).
 
 ## Contributing
-I welcome contributions and feedback from the community. If you'd like to contribute to this repository, please follow the [Contributing Guidelines](CONTRIBUTING.md).
+I welcome contributions and feedback from the community. If you'd like to contribute to this repository, please follow the [Contributing Guidelines](Contributing.md).
 
 ## Contact
 Connect with me on social media:
