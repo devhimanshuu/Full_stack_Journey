@@ -6,7 +6,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/devhimanshuu/Full_stack_Journey?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/devhimanshuu?style=social)
 
-Welcome to my Full Stack Journey repository! Here, I've documented my learning path and experiences as I embark on the exciting journey of becoming a Full Stack Developer. This repository serves as both a personal log and a valuable resource for fellow learners and developers.
+Welcome to My Full Stack Journey repository! Here, I've documented my learning path and experiences as I embark on the exciting journey of becoming a Full Stack Developer. This repository serves as both a personal log and a valuable resource for fellow learners and developers.
 
 ## Table of Contents
 - [About the Repository](#about-the-repository)
