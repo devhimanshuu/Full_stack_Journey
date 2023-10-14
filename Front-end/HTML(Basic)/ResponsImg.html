@@ -1,0 +1,21 @@
+Using srcset with sizes
+<img
+  sizes="(min-width: 1200px) 580px,
+ (min-width: 640px) 48vw,
+ 98vw"
+  srcset="
+    img/hello-300.jpg   300w,
+    img/hello-600.jpg   600w,
+    img/hello-900.jpg   900w,
+    img/hello-1200.jpg 1200w
+  "
+  src="img/hello-900.jpg"
+  alt="hello"
+/>
+
+Using srcset without sizes
+<img
+  src="img/hello-300.jpg"
+  alt="hello"
+  srcset="img/hello-300.jpg 1x, img/hello-600.jpg 2x, img/hello-1200.jpg 3x"
+/>
