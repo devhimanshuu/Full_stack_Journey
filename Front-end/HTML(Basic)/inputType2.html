@@ -1,0 +1,36 @@
+Button Groups Since each radio button affects the others in the group, it is
+common to provide a label or context for the entire group of radio buttons. To
+provide a label for the entire group, the radio buttons should be included in a
+<fieldset>
+  element with a
+  <legend>
+    element within it. Example:
+    <fieldset>
+      <legend>Theme color:</legend>
+      <p>
+        <input type="radio" name="color" id="red" value="#F00" />
+        <label for="red">Red</label>
+      </p>
+      <p>
+        <input type="radio" name="color" id="green" value="#0F0" />
+        <label for="green">Green</label>
+      </p>
+      GoalKicker.com – HTML5 Notes for Professionals 46
+      <p>
+        <input type="radio" name="color" id="blue" value="#00F" />
+        <label for="blue">Blue</label>
+      </p>
+    </fieldset>
+  </legend>
+</fieldset>
+
+Use the minlength and maxlength attributes to indicate length requirements.
+
+<input minlength="3" />
+<input maxlength="15" />
+<input minlength="3" maxlength="15" />
+
+Use min and max attributes to restrict the range of numbers a user can input
+into an input of type number or range Marks:
+<input type="number" size="6" name="marks" min="0" max="100" /> Subject
+Feedback: <input type="range" size="2" name="feedback" min="1" max="5" />
