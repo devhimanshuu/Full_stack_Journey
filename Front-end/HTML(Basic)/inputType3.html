@@ -1,0 +1,23 @@
+For input fields of type file, it is possible to accept only certain types of
+files, such as videos, images, audios, specific file extensions, or certain
+media types. For example:
+<input type="file" accept="image/*" title="Only images are allowed" />
+Multiple values can be specified with a comma, e.g.:
+<input type="file" accept="image/*,.rar,application/zip" />
+Note: Adding novalidate attribute to the form element or formnovalidate
+attribute to the submit button, prevents validation on form elements. For
+example:
+<form>
+  <input type="text" name="name" required />
+  <input type="email" name="email" required />
+  <input pattern="\d*" name="number" required />
+  <input type="submit" value="Publish" />
+  <!-- form will be validated -->
+  <input type="submit" value="Save" formnovalidate />
+  <!-- form will NOT be validated -->
+</form>
+<input type="password" name="password" />
+The input element with a type attribute whose value is password creates a
+single-line text field similar to the input type=text, except that text is not
+displayed as the user enters it.
+<input type="password" name="password" placeholder="Password" />
