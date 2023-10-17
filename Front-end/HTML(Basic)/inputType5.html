@@ -1,0 +1,38 @@
+<input type="button" value="Button Text" />
+Buttons can be used for triggering actions to occur on the page, without
+submitting the form. You can also use the
+<button>
+  element if you require a button that can be more easily styled or contain
+  other elements:
+  <button type="button">Button Text</button>
+  Buttons are typically used with an "onclick" event:
+  <input type="button" onclick="alert('hello world!')" value="Click Me" />
+  or
+  <button type="button" onclick="alert('hello world!')">Click Me</button>
+</button>
+
+<input type="submit" value="Submit" />
+A submit input creates a button which submits the form it is inside when
+clicked. You can also use the
+<button>
+  element if you require a submit button that can be more easily styled or
+  contain other elements:
+  <button type="submit"><img src="submit-icon.jpg" /> Submit</button>
+</button>
+
+<input type="hidden" name="inputName" value="inputValue" />
+A hidden input won't be visible to the user, but its value will be sent to the
+server when the form is submitted nonetheless.
+
+<input type="tel" value="+8400000000" />
+The input element with a type attribute whose value is tel represents a one-line
+plain-text edit control for entering a telephone number
+
+
+
+The <input type="email"> is used for input fields that should contain an e-mail address.
+<form>
+ <label>E-mail: <label>
+ <input type="email" name="email">
+</form>
+E-mail address can be automatically validated when submitted depending on browser support.
