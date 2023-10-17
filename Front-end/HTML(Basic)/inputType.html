@@ -1,0 +1,28 @@
+<!-- 
+A key component of interactive web systems, input tags are HTML elements designed to take a specific form of
+input from users. Different types of input elements can regulate the data entered to fit a specified format and
+provide security to password entry. -->
+
+The default width of a text field input is 20 characters. This can be changed by
+specifying a value for the size attribute like this:
+<input type="text" size="50" />
+
+The simplest checkbox or radio button is an <input /> element with a type
+attribute of checkbox or radio, respectively:
+<input type="checkbox" />
+<input type="radio" />
+<input type="radio" name="color" id="red" value="#F00" />
+<input type="radio" name="color" id="green" value="#0F0" />
+<input type="radio" name="color" id="blue" value="#00F" />
+
+The checked attribute specifies the initial state of a checkbox or radio button.
+This is a boolean attribute and may be omitted. Each of these are valid,
+equivalent ways to define a checked radio button:
+<input checked />
+<input checked="" />
+<input checked="checked" />
+<input checked="ChEcKeD" />
+The absence of the checked attribute is the only valid syntax for an unchecked
+button:
+<input type="radio" />
+<input type="checkbox" />
