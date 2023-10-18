@@ -1,0 +1,31 @@
+Images and files can be uploaded/submitted to server by setting enctype
+attribute of form tag to multipart/formdata. enctype specifies how form data
+would be encoded while submitting to the server. Example
+<form method="post" enctype="multipart/form-data" action="upload.php">
+  <input type="file" name="pic" />
+  <input type="submit" value="Upload" />
+</form>
+
+While designing a form, you might like to group a few input fields into a group
+to help organise the form layout. This can be done by using the tag . Here is an
+example for using it. For each fieldset, you can set a legend for the set using
+the tag LEGEND TEXT Example
+<form>
+  <fieldset>
+    <legend>1st field set:</legend>
+    Field one:<br />
+    <input type="text" /><br />
+    <br />
+    <input type="text" /><br />
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>2nd field set:</legend>
+    Field three:<br />
+    <input type="text" /><br />
+    Field four:<br />
+    <input type="text" /><br />
+  </fieldset>
+  <br />
+  <input type="submit" value="Submit" />
+</form>
