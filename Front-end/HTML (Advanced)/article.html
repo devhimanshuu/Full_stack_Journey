@@ -1,0 +1,38 @@
+The
+<article>
+  element contains self-contained content like articles, blog posts, user
+  comments or an interactive widget that could be distributed outside the
+  context of the page, for example by RSS. When article elements are nested, the
+  contents of the inner article node should be related to the outer article
+  element. A blog (section) with multiple posts (article), and comments
+  (article) might look something like this.
+  <section>
+    <!-- Each individual blog post is an <article> -->
+    <article>
+      <header>
+        <h1>Blog Post</h1>
+        <time datetime="2016-03-13">13th March 2016</time>
+      </header>
+      <p>
+        The article element represents a self contained article or document.
+      </p>
+      <p>The section element represents a grouping of content.</p>
+      <section>
+        <h2>Comments <small>relating to "Blog Post"</small></h2>
+        <!-- Related comment is also a self-contained article -->
+        <article id="user-comment-1">
+          <p>Excellent!</p>
+          <footer>
+            <p>...</p>
+            <time>...</time>
+          </footer>
+        </article>
+      </section>
+    </article>
+    <!-- ./repeat: <article> -->
+  </section>
+  <!-- Content unrelated to the blog or posts should be outside the section. -->
+  <footer>
+    <p>This content should be unrelated to the blog.</p>
+  </footer>
+</article>
