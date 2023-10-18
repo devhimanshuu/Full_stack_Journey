@@ -1,0 +1,22 @@
+Avoid unnecessary usage
+<footer>
+  elements may have a list of links to other parts of the site (FAQ, T&C, etc.).
+  The footer element alone is sufficient in this case, you don't need to further
+  wrap your links with a
+  <nav>
+    element in the
+    <footer>
+      .
+      <!-- the <nav> is not required in the <footer> -->
+      <footer>
+        <nav>
+          <a href="#">...</a>
+        </nav>
+      </footer>
+      <!-- The footer alone is sufficient -->
+      <footer>
+        <a href="#">...</a>
+      </footer>
+    </footer>
+  </nav>
+</footer>
