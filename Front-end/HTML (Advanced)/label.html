@@ -1,0 +1,36 @@
+The
+<label>
+  element is used to reference a form action element. In the scope of User
+  Interface it's used to ease the target / selection of elements like Type radio
+  or checkbox.
+  <label>
+    as wrapper It can enclose the desired action element
+    <label>
+      <input type="checkbox" name="Cats" />
+      I like Cats!
+    </label>
+    (Clicking on the text the target input will toggle it's state / value)
+    <label>
+      as reference Using the for attribute you don't have to place the control
+      element as descendant of label - but the for value must match it's ID
+      <input id="cats" type="checkbox" name="Cats" />
+      <label for="cats">I like Cats!</label></label
+    ></label
+  ></label
+>
+Simple form with labels...
+<form action="/login" method="POST">
+  <label for="username">Username:</label>
+  <input id="username" type="text" name="username" />
+  <label for="pass">Password:</label>
+  <input id="pass" type="password" name="pass" />
+  <input type="submit" name="submit" />
+</form>
+
+<form id="my-form" action="/login" method="POST">
+  <input id="username" type="text" name="username" />
+  <label for="pass">Password:</label>
+  <input id="pass" type="password" name="pass" />
+  <input type="submit" name="submit" />
+</form>
+<label for="username" form="my-form">Username:</label>
