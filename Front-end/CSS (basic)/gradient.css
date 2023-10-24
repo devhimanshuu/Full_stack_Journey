@@ -1,0 +1,27 @@
+/* this creates a linear gradient that starts from the right and transitions from red to blue */
+.linear-gradient {
+  background: linear-gradient(to left, red, blue); /* you can also use 270deg */
+}
+/* You can create a diagonal gradient by declaring both a horizontal and vertical starting position. */
+.diagonal-linear-gradient {
+  background: linear-gradient(to left top, red, yellow 10%);
+}
+.linear-gradient-rainbow {
+  background: linear-gradient(
+    to left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+/* radial-gradient() */
+.radial-gradient-simple {
+  background: radial-gradient(red, blue);
+}
+.radial-gradient {
+  background: radial-gradient(circle farthest-corner at top left, red, blue);
+}
