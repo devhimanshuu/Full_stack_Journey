@@ -1,0 +1,30 @@
+The term "IFrame" means Inline Frame. It can be used to include another page in
+your page. This will yield a small frame which shows the exact contents of the
+base.html.
+
+<iframe src="base.html"></iframe>
+
+<!-- SandBoxing -->
+The following embeds an untrusted web page with all restrictions enabled
+<iframe sandbox src="http://example.com/"></iframe>
+To allow the page to run scripts and submit forms, add allow-scripts and
+allow-forms to the sandbox attribute.
+<iframe sandbox="allow-scripts allow-forms" src="http://example.com/"></iframe>
+If there is untrusted content (such as user comments) on the same domain as the
+parent web page, an iframe can be used to disable scripts while still allowing
+the parent document to interact with it's content using JavaScript.
+<iframe
+  sandbox="allow-same-origin allow-top-navigation"
+  src="http://example.com/untrusted/comments/page2"
+>
+</iframe>
+
+<!-- srcdoc -->
+The srcdoc attribute can be used (instead of the src attribute) to specify the
+exact contents of the iframe as a whole HTML document. This will yield an IFrame
+with the text "IFrames are cool!"
+<iframe srcdoc="<p>IFrames are cool!</p>"></iframe>
+If the srcdoc attribute isn't supported by the browser, the IFrame will instead
+fall back to using the src attribute, but if both the src and srcdoc attributes
+are present and supported by the browser, srcdoc takes precedence.
+<iframe srcdoc="<p>Iframes are cool!</p>" src="base.html"></iframe>
