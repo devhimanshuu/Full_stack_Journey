@@ -1,0 +1,25 @@
+The
+<select>
+  element generates a drop-down menu from which the user can choose an option.
+  <select name="">
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+    <option value="4">Four</option>
+  </select>
+</select>
+
+The syntax is very basic, by simply using the element with a label attribute to
+identify the title for the group, and containing zero or more options that
+should be within that group.
+<select name="">
+  <option value="milk">Milk</option>
+  <optgroup label="Fruits">
+    <option value="banana">Bananas</option>
+    <option value="strawberry">Strawberries</option>
+  </optgroup>
+  <optgroup label="Vegetables" disabled>
+    <option value="carrot">Carrots</option>
+    <option value="zucchini">Zucchini</option>
+  </optgroup>
+</select>
