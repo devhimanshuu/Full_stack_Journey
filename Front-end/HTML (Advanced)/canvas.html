@@ -1,0 +1,42 @@
+The canvas element was introduced in HTML5 for drawing graphics.
+<canvas id="myCanvas">
+  Cannot display graphic. Canvas is not supported by your browser (IE<9)
+</canvas>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Draw two rectangles on the canvas</title>
+    <style>
+      canvas {
+        border: 1px solid gray;
+      }
+    </style>
+    <script async>
+      window.onload = init; // call init() once the window is completely loaded
+      function init() {
+        // #1 - get reference to <canvas> element
+        var canvas = document.querySelector("canvas");
+
+        // #2 - get reference to the drawing context and drawing API
+        var ctx = canvas.getContext("2d");
+        // #3 - all fill operations are now in red
+        ctx.fillStyle = "red";
+
+        // #4 - fill a 100x100 rectangle at x=0,y=0
+        ctx.fillRect(0, 0, 100, 100);
+
+        // #5 - all fill operations are now in green
+        ctx.fillStyle = "green";
+
+        // #6 - fill a 50x50 rectangle at x=25,y=25
+        ctx.fillRect(25, 25, 50, 50);
+      }
+    </script>
+  </head>
+  <body>
+    <canvas width="300" height="200"
+      >Your browser does not support canvas.</canvas
+    >
+  </body>
+</html>
