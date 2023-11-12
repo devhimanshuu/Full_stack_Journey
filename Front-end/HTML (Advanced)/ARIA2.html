@@ -1,0 +1,43 @@
+A section of a page that consists of a composition that forms an independent
+part of a document, page, or site
+<article>
+  <h1>My first article</h1>
+  <p>Lorem ipsum...</p>
+</article>
+You would use role=article on non-semantic elements (not recommended, invalid)
+<div role="article">
+  <h1>My first article</h1>
+  <p>Lorem ipsum...</p>
+</div>
+
+A region that contains mostly site-oriented content, rather than page-specific
+content.
+<div role="banner">
+  <h1>My Site</h1>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</div>
+
+An input that allows for user-triggered actions when clicked or pressed.
+<button role="button">Add</button>
+
+A cell in a tabular container.
+<table>
+  <thead>
+    <!-- etc -->
+  </thead>
+  <tbody>
+    <td role="cell">95</td>
+    <td role="cell">14</td>
+    <td role="cell">25</td>
+  </tbody>
+</table>
+
+A checkable input that has three possible values: true, false, or mixed.
+<p>
+  <input type="checkbox" role="checkbox" aria-checked="false" />
+  I agree to the terms
+</p>
