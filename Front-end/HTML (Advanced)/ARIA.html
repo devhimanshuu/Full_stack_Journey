@@ -1,0 +1,27 @@
+An element whose implicit native role semantics will not be mapped to the
+accessibility API.
+<div style="float: left">Some content on the left.</div>
+<div style="float: right">Some content on the right</div>
+<div role="presentation" style="clear: both"></div>
+<!-- Only used to clear floats -->
+
+A message with important, and usually time-sensitive, information.
+<div role="alert" aria-live="assertive">
+  Your session will expire in 60 seconds.
+</div>
+
+A type of dialog that contains an alert message, where initial focus goes to an
+element within the dialog.
+<div role="alertdialog">
+  <h1>Warning</h1>
+  <div role="alert">Your session will expire in 60 seconds.</div>
+</div>
+
+A region declared as a web application, as opposed to a web document. In this
+example, the application is a simple calculator that might add two numbers
+together.
+<div role="application">
+  <h1>Calculator</h1>
+  <input id="num1" type="text" /> + <input id="num2" type="text" /> =
+  <span id="result"></span>
+</div>
