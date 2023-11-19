@@ -32,3 +32,6 @@ Internet of Things (IoT) applications: MongoDB can capture and store data from a
 Mobile applications: MongoDB provides a flexible data model, which is an essential requirement for the dynamic nature and varying data types of mobile applications.</li></ol>
 <i>
 In conclusion, MongoDB is a powerful and versatile NoSQL database that can efficiently handle unstructured and semi-structured data, making it an excellent choice for various applications and industries.</i>
+</br>
+</br>
+<pre><bold>All the content is learnt from MongoDB University Official Course</bold></pre>
