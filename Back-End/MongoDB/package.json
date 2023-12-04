@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mongodb": "^6.2.0",
+    "nvm": "^0.0.4"
+  }
+}
