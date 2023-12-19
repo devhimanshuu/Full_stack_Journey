@@ -38,7 +38,9 @@ My learning path follows a structured approach, covering key areas such as:
 - Node.js
 - Express.js
 - React
+- Typescript
 - NoSQL (MongoDB)
+- PostgreSQL
 - Git and GitHub
 - Docker
 - AWS
