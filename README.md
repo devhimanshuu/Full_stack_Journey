@@ -22,9 +22,9 @@ This repository is a comprehensive record of my Full Stack development journey. 
 
 ## Learning Path
 My learning path follows a structured approach, covering key areas such as:
-- Frontend Development (HTML, CSS, JavaScript)
+- Frontend Development (HTML, CSS, JavaScript, Typescript)
 - Backend Development (Node.js, Express.js) Coming soon....
-- Databases (MongoDB) Coming soon.....
+- Databases (MongoDB, PostgreSQL) Coming soon.....
 - Frameworks and Libraries (React.js, Next.js, TailwindCSS, Bootstrap, SASS ) Coming soon....
 - Deployment and DevOps (Docker, AWS, kubernetes) Coming soon....
 - Version Control (Git, GitHub)
@@ -38,7 +38,9 @@ My learning path follows a structured approach, covering key areas such as:
 - Node.js
 - Express.js
 - React
+- Typescript
 - NoSQL (MongoDB)
+- PostgreSQL
 - Git and GitHub
 - Docker
 - AWS
