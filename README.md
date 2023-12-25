@@ -37,7 +37,10 @@ My learning path follows a structured approach, covering key areas such as:
 - SASS
 - Node.js
 - Express.js
-- React
+- React.js
+- Next.js
+- TailwindCSS
+- Bootstrap
 - Typescript
 - NoSQL (MongoDB)
 - PostgreSQL
