@@ -33,12 +33,12 @@ const userSchema = new mongoose.Schema({
 const User = mongoose.model("user", userSchema);
 app.use(express.urlencoded({ extended: false }));
 app.use((req, res, next) => {
-  console.log("hello from middleare-1");
+  console.log("hello from middleware-1");
   return res.json({ msg: "hello from middleware-1" });
   next();
 });
 app.use((req, res, next) => {
-  console.log("hello from middleare-2");
+  console.log("hello from middleware-2");
   return res.json({ msg: "hello from middleware-2" });
   next();
 });
