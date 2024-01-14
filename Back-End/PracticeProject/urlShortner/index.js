@@ -43,7 +43,13 @@ app.get("/:shortId", async (req, res) => {
       },
     }
   );
-  res.redirect(entry.redirectURL);
+  if (entry && entry.redirectURL) {
+    res.redirect(entry.redirectURL);
+  } else {
+    // Handle the case when entry is null or    redirectURL is undefined
+    res.status(404).send("Not Found");
+  }
+  // res.redirect(entry.redirectURL);
 });
 
 app.listen(PORT, () => console.log(`Server Started at PORT: ${PORT}`));
