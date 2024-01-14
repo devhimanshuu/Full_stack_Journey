@@ -1,8 +1,9 @@
 //for authentication
 const express = require("express");
-const router = express.router();
+const router = express.Router();
+const mongoose = require("mongoose");
 
-const userSchema = new Schema(
+const userSchema = new mongoose.Schema(
   {
     name: {
       type: String,
@@ -23,6 +24,6 @@ const userSchema = new Schema(
   }
 );
 
-const user = model("user", userSchema);
+const User = mongoose.model("user", userSchema);
 
-module.exports = user;
+module.exports = User;
