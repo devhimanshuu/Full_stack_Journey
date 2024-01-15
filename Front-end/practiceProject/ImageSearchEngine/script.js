@@ -14,12 +14,26 @@ async function searchImage() {
 
   const response = await fetch(url);
   const data = await response.json();
+  const result = data.result;
 
-  console.log(data);
+  result.map((result) => {
+    const image = document.createElement("img");
+    image.src = result.urls.small;
+    const imageLink = document.createElement("a");
+    imageLink.href = result.links.html;
+    imageLink.target = "_blank";
+    imageLink.appendChild(image);
+    searchResult.appendChild(imageLink);
+  });
+  showMoreBtn.style.display = "block";
 }
 
 searchForm.addEventListener("submit", (e) => {
   e.preventDefault();
   page = 1;
+  searchImage();
+});
+showMoreBtn.addEventListener("click", () => {
+  page++;
   searchImage();
 });
