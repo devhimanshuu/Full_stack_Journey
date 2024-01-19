@@ -1,0 +1,26 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Practice Project ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devhimanshuu/Full_stack_Journey"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "devhimanshuu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.2",
+    "nodemon": "^3.0.3"
+  }
+}
