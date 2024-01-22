@@ -18,7 +18,7 @@ Welcome to My Full Stack Journey repository! Here, I've documented my learning p
 - [Contact](#contact)
 
 ## About the Repository
-This repository is a comprehensive record of my Full Stack development journey. It includes notes, code samples, projects, and resources that I've collected and created along the way. Whether you're a beginner or an experienced developer, you'll find something here to enhance your skills and knowledge.
+This repository is a comprehensive record of my Full Stack development journey. It includes notes, code samples, projects, and resources that I've collected and created along the way. Whether you're a beginner or an experienced developer. you'll find something here to enhance your skills and knowledge.
 
 ## Learning Path
 My learning path follows a structured approach, covering key areas such as:
