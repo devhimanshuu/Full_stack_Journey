@@ -52,9 +52,9 @@ My learning path follows a structured approach, covering key areas such as:
   
 ## Projects
 I've worked on several hands-on projects throughout my Full Stack journey. Here are a few notable ones:
-- [Project 1 Name](Link to Project 1) Coming soon....
-- [Project 2 Name](Link to Project 2) Coming soon....
-- [Project 3 Name](Link to Project 3) Coming soon....
+- [ByteChat](https://github.com/devhimanshuu/ByteChat ) 
+- [ZenQuill](https://github.com/devhimanshuu/ZenQuill)
+- [Gmail-Clone](https://github.com/devhimanshuu/Gmail-Clone)
 
 Feel free to explore these projects and their code repositories for a deeper understanding of my work.
 
