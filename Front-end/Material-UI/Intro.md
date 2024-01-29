@@ -1,4 +1,5 @@
 # Introduction to Material-UI
+![Material-UI Logo](https://material-ui.com/static/logo.svg)
 
 Material-UI is like a handy toolbox for React developers. It provides a collection of ready-made building blocks, or components, that follow a set of design rules from Google. These rules ensure that your website or app looks clean, consistent, and modern.
 
@@ -39,8 +40,6 @@ To use Material-UI in your React project:
 For more details and examples, check out the [Material-UI Documentation](https://material-ui.com/).
 
 Start building beautiful and user-friendly websites or apps with Material-UI!
-
-![Material-UI Logo](https://material-ui.com/static/logo.svg)
 
 ```
 
