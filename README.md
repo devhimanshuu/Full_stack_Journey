@@ -1,4 +1,4 @@
-# Full Stack Journey Repository
+# Full Stack Journey
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/devhimanshuu/Full_stack_Journey)
 ![GitHub contributors](https://img.shields.io/github/contributors/devhimanshuu/Full_stack_Journey)
