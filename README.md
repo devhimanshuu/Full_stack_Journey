@@ -1,4 +1,4 @@
-# Full Stack Journey Repository
+# Full Stack Journey
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/devhimanshuu/Full_stack_Journey)
 ![GitHub contributors](https://img.shields.io/github/contributors/devhimanshuu/Full_stack_Journey)
@@ -25,7 +25,7 @@ My learning path follows a structured approach, covering key areas such as:
 - Frontend Development (HTML, CSS, JavaScript, Typescript)
 - Backend Development (Node.js, Express.js) 
 - Databases (MongoDB, PostgreSQL)
-- Frameworks and Libraries (React.js, Next.js, TailwindCSS, Bootstrap, SASS ) Coming soon....
+- Frameworks and Libraries (React.js, Next.js, TailwindCSS, Bootstrap, Material-UI, SASS )
 - Deployment and DevOps (Docker, AWS, kubernetes) Coming soon....
 - Version Control (Git, GitHub)
 - and much more!
@@ -40,6 +40,7 @@ My learning path follows a structured approach, covering key areas such as:
 - React.js
 - Next.js
 - TailwindCSS
+- Material-UI
 - Bootstrap
 - Typescript
 - NoSQL (MongoDB)
