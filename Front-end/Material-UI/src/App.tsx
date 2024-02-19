@@ -8,16 +8,18 @@ import MuiCheckBox from "./components/muiCheckBox";
 import { MuiSwitch } from "./components/muiSwitch";
 import { MuiRating } from "./components/muiRating";
 import { MuiAutoComplete } from "./components/muiAutoComplete";
+import { MuiLayout } from "./components/muiLayout";
 function App() {
   return (
     <div className="App">
-      <MuiTextfield />
+      {/* <MuiTextfield />
       <MuiSelect />
       <MuiRadioButton />
       <MuiCheckBox />
       <MuiSwitch />
       <MuiRating />
-      <MuiAutoComplete />
+      <MuiAutoComplete /> */}
+      <MuiLayout />
     </div>
   );
 }
