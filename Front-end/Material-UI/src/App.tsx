@@ -7,6 +7,7 @@ import MuiRadioButton from "./components/muiRadioButton";
 import MuiCheckBox from "./components/muiCheckBox";
 import { MuiSwitch } from "./components/muiSwitch";
 import { MuiRating } from "./components/muiRating";
+import { MuiAutoComplete } from "./components/muiAutoComplete";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <MuiCheckBox />
       <MuiSwitch />
       <MuiRating />
+      <MuiAutoComplete />
     </div>
   );
 }
