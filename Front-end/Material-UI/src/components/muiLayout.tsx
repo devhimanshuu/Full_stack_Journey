@@ -3,6 +3,7 @@ import { Box } from "@mui/material";
 export const MuiLayout = () => {
   return (
     <>
+      {/* using Box Components in layout  */}
       <Box
         // component="span"
         sx={{
