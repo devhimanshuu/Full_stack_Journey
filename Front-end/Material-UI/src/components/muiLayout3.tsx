@@ -1,9 +1,11 @@
 import React from "react";
-import { Box, Stack, Divider, Grid } from "@mui/material";
+import { Box, Stack, Divider, Grid, Paper } from "@mui/material";
+import { Padding } from "@mui/icons-material";
 export const MuiLayout3 = () => {
   return (
-    <>
+    <Paper sx={{ Padding: "32px" }} elevation={4}>
       {/* using Grid Components in layout  */}
+
       <Stack
         sx={{ border: "1px solid" }}
         direction="row"
@@ -47,6 +49,6 @@ export const MuiLayout3 = () => {
           <Box bgcolor="primary.light">Item-4</Box>
         </Grid>
       </Grid>
-    </>
+    </Paper>
   );
 };
