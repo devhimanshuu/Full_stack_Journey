@@ -11,6 +11,7 @@ import { MuiAutoComplete } from "./components/muiAutoComplete";
 import { MuiLayout } from "./components/muiLayout";
 import { MuiLayout2 } from "./components/muiLayout2";
 import { MuiLayout3 } from "./components/muiLayout3";
+import { MuiCard } from "./components/muiCard";
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
       <MuiLayout2 />
       <MuiLayout /> */}
       <MuiLayout3 />
+      <MuiCard />
     </div>
   );
 }
