@@ -1,4 +1,5 @@
 import "./App.css";
+import { MuiLink } from "./components/muiLink";
 
 import { MuiNavbar } from "./components/muiNavbar";
 
@@ -13,11 +14,12 @@ function App() {
       <MuiRating />
       <MuiAutoComplete />
       <MuiLayout2 />
-      <MuiLayout /> */}
-      {/* <MuiLayout3 />
+      <MuiLayout />
+      <MuiLayout3 />
       <MuiCard />
-      <MuiAccordion /> */}
+  <MuiAccordion />*/}
       <MuiNavbar />
+      <MuiLink />
     </div>
   );
 }
