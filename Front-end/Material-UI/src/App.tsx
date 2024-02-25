@@ -12,7 +12,9 @@ import { MuiLayout } from "./components/muiLayout";
 import { MuiLayout2 } from "./components/muiLayout2";
 import { MuiLayout3 } from "./components/muiLayout3";
 import { MuiCard } from "./components/muiCard";
+
 import { MuiAccordion } from "./components/muiAccordion";
+import { MuiNavbar } from "./components/muiNavbar";
 function App() {
   return (
     <div className="App">
@@ -25,9 +27,10 @@ function App() {
       <MuiAutoComplete />
       <MuiLayout2 />
       <MuiLayout /> */}
-      <MuiLayout3 />
+      {/* <MuiLayout3 />
       <MuiCard />
-      <MuiAccordion />
+      <MuiAccordion /> */}
+      <MuiNavbar />
     </div>
   );
 }
