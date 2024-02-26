@@ -1,4 +1,5 @@
 import "./App.css";
+import { MuiBreadCrumbs } from "./components/muiBreadCrumbs";
 import { MuiLink } from "./components/muiLink";
 
 import { MuiNavbar } from "./components/muiNavbar";
@@ -20,6 +21,7 @@ function App() {
   <MuiAccordion />*/}
       <MuiNavbar />
       <MuiLink />
+      <MuiBreadCrumbs />
     </div>
   );
 }
