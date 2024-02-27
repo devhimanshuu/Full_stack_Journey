@@ -1,4 +1,5 @@
 import "./App.css";
+import { MuiBottomNavigation } from "./components/muiBottomNavigation";
 import { MuiBreadCrumbs } from "./components/muiBreadCrumbs";
 import { MuiDrawer } from "./components/muiDrawer";
 import { MuiLink } from "./components/muiLink";
@@ -22,10 +23,10 @@ function App() {
       <MuiCard />
   <MuiAccordion />*/}
       <MuiNavbar />
-      <MuiLink />
       <MuiBreadCrumbs />
       <MuiDrawer />
       <MuiSpeedDial />
+      <MuiBottomNavigation />
     </div>
   );
 }
