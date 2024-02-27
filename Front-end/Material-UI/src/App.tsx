@@ -4,6 +4,7 @@ import { MuiDrawer } from "./components/muiDrawer";
 import { MuiLink } from "./components/muiLink";
 
 import { MuiNavbar } from "./components/muiNavbar";
+import { MuiSpeedDial } from "./components/muiSpeedDial";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <MuiLink />
       <MuiBreadCrumbs />
       <MuiDrawer />
+      <MuiSpeedDial />
     </div>
   );
 }
