@@ -1,4 +1,5 @@
 import "./App.css";
+import { MuiAvatar } from "./components/muiAvatar";
 import { MuiBottomNavigation } from "./components/muiBottomNavigation";
 import { MuiBreadCrumbs } from "./components/muiBreadCrumbs";
 import { MuiDrawer } from "./components/muiDrawer";
@@ -27,6 +28,7 @@ function App() {
       <MuiDrawer />
       <MuiSpeedDial />
       <MuiBottomNavigation />
+      <MuiAvatar />
     </div>
   );
 }
