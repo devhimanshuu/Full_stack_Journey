@@ -8,6 +8,7 @@ import { MuiDrawer } from "./components/muiDrawer";
 
 import { MuiNavbar } from "./components/muiNavbar";
 import { MuiSpeedDial } from "./components/muiSpeedDial";
+import { MuiTooltip } from "./components/muiTooltip";
 
 function App() {
   return (
@@ -29,9 +30,9 @@ function App() {
       <MuiDrawer />
       <MuiSpeedDial />
       <MuiBottomNavigation />
-
       <MuiBadge />
       <MuiChip />
+      <MuiTooltip />
     </div>
   );
 }
