@@ -1,11 +1,11 @@
 import "./App.css";
-import { MuiAvatar } from "./components/muiAvatar";
+
 import { MuiBadge } from "./components/muiBadge";
 import { MuiBottomNavigation } from "./components/muiBottomNavigation";
 import { MuiBreadCrumbs } from "./components/muiBreadCrumbs";
+import { MuiChip } from "./components/muiChip";
 import { MuiDrawer } from "./components/muiDrawer";
-import { MuiLink } from "./components/muiLink";
-import { MuiList } from "./components/muiList";
+
 import { MuiNavbar } from "./components/muiNavbar";
 import { MuiSpeedDial } from "./components/muiSpeedDial";
 
@@ -29,9 +29,9 @@ function App() {
       <MuiDrawer />
       <MuiSpeedDial />
       <MuiBottomNavigation />
-      <MuiAvatar />
+
       <MuiBadge />
-      <MuiList />
+      <MuiChip />
     </div>
   );
 }
