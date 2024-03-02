@@ -5,7 +5,7 @@ import { MuiBottomNavigation } from "./components/muiBottomNavigation";
 import { MuiBreadCrumbs } from "./components/muiBreadCrumbs";
 import { MuiDrawer } from "./components/muiDrawer";
 import { MuiLink } from "./components/muiLink";
-
+import { MuiList } from "./components/muiList";
 import { MuiNavbar } from "./components/muiNavbar";
 import { MuiSpeedDial } from "./components/muiSpeedDial";
 
@@ -31,6 +31,7 @@ function App() {
       <MuiBottomNavigation />
       <MuiAvatar />
       <MuiBadge />
+      <MuiList />
     </div>
   );
 }
