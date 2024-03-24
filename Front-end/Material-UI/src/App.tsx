@@ -8,6 +8,7 @@ import { MuiChip } from "./components/muiChip";
 import { MuiDrawer } from "./components/muiDrawer";
 
 import { MuiNavbar } from "./components/muiNavbar";
+import { MuiSnackbar } from "./components/muiSnackbar";
 import { MuiSpeedDial } from "./components/muiSpeedDial";
 import { Muitable } from "./components/muiTable";
 import { MuiTooltip } from "./components/muiTooltip";
@@ -37,6 +38,7 @@ function App() {
       <MuiTooltip />
       {/* <Muitable /> */}
       <MuiAlert />
+      <MuiSnackbar />
     </div>
   );
 }
