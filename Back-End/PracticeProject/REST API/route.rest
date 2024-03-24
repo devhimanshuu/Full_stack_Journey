@@ -1,0 +1,27 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5cd7814d2b23b02f7c393f2f
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+{
+    "name":"Himanshu Gupta",
+    "subscribedToChannel":"Full Stack"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5cd7814d2b23b02f7c393f2f
+
+###
+
+PATCH http://localhost:3000/subscribers/5cd7814d2b23b02f7c393f2f
+Content-Type: application/json
+
+{
+    "name":"new name"
+}
