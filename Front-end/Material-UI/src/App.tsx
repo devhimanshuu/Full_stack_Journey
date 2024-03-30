@@ -12,6 +12,8 @@ import { MuiSnackbar } from "./components/muiSnackbar";
 import { MuiSpeedDial } from "./components/muiSpeedDial";
 import { Muitable } from "./components/muiTable";
 import { MuiTooltip } from "./components/muiTooltip";
+import { MuiDialog } from "./components/muiDialog";
+import { MuiProgress } from "./components/muiProgress";
 
 function App() {
   return (
@@ -28,17 +30,19 @@ function App() {
       <MuiLayout3 />
       <MuiCard />
   <MuiAccordion />*/}
-      <MuiNavbar />
+      {/* <MuiNavbar />
       <MuiBreadCrumbs />
       <MuiDrawer />
       <MuiSpeedDial />
       <MuiBottomNavigation />
       <MuiBadge />
       <MuiChip />
-      <MuiTooltip />
+      <MuiTooltip /> */}
       {/* <Muitable /> */}
       <MuiAlert />
       <MuiSnackbar />
+      <MuiDialog />
+      <MuiProgress />
     </div>
   );
 }
