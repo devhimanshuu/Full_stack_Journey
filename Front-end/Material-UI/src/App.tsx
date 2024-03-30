@@ -16,11 +16,23 @@ import { MuiTooltip } from "./components/muiTooltip";
 import { MuiDialog } from "./components/muiDialog";
 import { MuiProgress } from "./components/muiProgress";
 import { MuiSkeleton } from "./components/muiSkeleton";
+import { MuiTextfield } from "./components/muiText";
+import { MuiSelect } from "./components/muiSelect";
+import MuiRadioButton from "./components/muiRadioButton";
+import MuiCheckBox from "./components/muiCheckBox";
+import { MuiSwitch } from "./components/muiSwitch";
+import { MuiLayout2 } from "./components/muiLayout2";
+import { MuiAutoComplete } from "./components/muiAutoComplete";
+import { MuiRating } from "./components/muiRating";
+import { MuiAccordion } from "./components/muiAccordion";
+import { MuiCard } from "./components/muiCard";
+import { MuiLayout3 } from "./components/muiLayout3";
+import { MuiLayout } from "./components/muiLayout";
 
 function App() {
   return (
     <div className="App">
-      {/* <MuiTextfield />
+      <MuiTextfield />
       <MuiSelect />
       <MuiRadioButton />
       <MuiCheckBox />
@@ -31,17 +43,17 @@ function App() {
       <MuiLayout />
       <MuiLayout3 />
       <MuiCard />
-  <MuiAccordion />*/}
-      {/* <MuiNavbar />
+      <MuiAccordion />
+      <MuiNavbar />
       <MuiBreadCrumbs />
       <MuiDrawer />
       <MuiSpeedDial />
       <MuiBottomNavigation />
       <MuiBadge />
       <MuiChip />
-      <MuiTooltip /> */}
-      {/* <Muitable /> */}
-      {/* <MuiAlert /> */}
+      <MuiTooltip />
+      <Muitable />
+      <MuiAlert />
       <MuiSnackbar />
       <MuiDialog />
       <MuiProgress />
