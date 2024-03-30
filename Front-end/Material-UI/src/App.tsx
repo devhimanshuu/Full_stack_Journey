@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import "./App.css";
 import { MuiAlert } from "./components/muiAlert";
 
@@ -14,6 +15,7 @@ import { Muitable } from "./components/muiTable";
 import { MuiTooltip } from "./components/muiTooltip";
 import { MuiDialog } from "./components/muiDialog";
 import { MuiProgress } from "./components/muiProgress";
+import { MuiSkeleton } from "./components/muiSkeleton";
 
 function App() {
   return (
@@ -39,10 +41,11 @@ function App() {
       <MuiChip />
       <MuiTooltip /> */}
       {/* <Muitable /> */}
-      <MuiAlert />
+      {/* <MuiAlert /> */}
       <MuiSnackbar />
       <MuiDialog />
       <MuiProgress />
+      <MuiSkeleton />
     </div>
   );
 }
