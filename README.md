@@ -48,14 +48,12 @@ My learning path follows a structured approach, covering key areas such as:
 - Git and GitHub
 - Docker
 - AWS
-- Heroku
 - Kubernetes
   
 ## Projects
 I've worked on several hands-on projects throughout my Full Stack journey. Here are a few notable ones:
-- [ByteChat](https://github.com/devhimanshuu/ByteChat ) 
-- [ZenQuill](https://github.com/devhimanshuu/ZenQuill)
-- [Gmail-Clone](https://github.com/devhimanshuu/Gmail-Clone)
+- [Movix](https://github.com/devhimanshuu/Movix) 
+  
 
 Feel free to explore these projects and their code repositories for a deeper understanding of my work.
 
