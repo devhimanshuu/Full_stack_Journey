@@ -52,7 +52,8 @@ My learning path follows a structured approach, covering key areas such as:
   
 ## Projects
 I've worked on several hands-on projects throughout my Full Stack journey. Here are a few notable ones:
-- [Movix](https://github.com/devhimanshuu/Movix) 
+- [Movix](https://github.com/devhimanshuu/Movix)
+- [FlexiFlow](https://github.com/devhimanshuu/FlexiFlow)
   
 
 Feel free to explore these projects and their code repositories for a deeper understanding of my work.
