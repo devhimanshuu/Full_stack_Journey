@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <p id="pra">this is a p tag</p>
+    <button id="btn1">Button 1</button>
+    <button id="btn2">Button 2</button>
+
+    <br />
+    <br />
+    <div
+      id="colored-div"
+      style="background-color: brown; height: 100px; width: 100px"
+    ></div>
+    <script>
+      //   $("#colored-div").hover(
+      //     function () {
+      //       $("#pra").hide();
+      //     },
+      //     function () {
+      //       $("#pra").show();
+      //     }
+      //   );
+      //   $("#btn1").click(function () {
+      //     $("#colored-div").hide(1000);
+      //   });
+      //   $("#btn2").click(function () {
+      //     $("#colored-div").show(2000);
+      //   });
+      //   $("#btn1").click(function () {
+      //     $("#colored-div").fadeIn(1000);
+      //   });
+      //   $("#btn2").click(function () {
+      //     $("#colored-div").fadeOut(2000);
+      //   });
+      $("#btn1").click(function () {
+        $("#colored-div").slideToggle(1000);
+      });
+      $("#btn2").click(function () {
+        $("#colored-div").slideDown(2000);
+      });
+    </script>
+  </body>
+</html>
