@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <p id="pra">this is a p tag</p>
+    <button id="btn1">Button 1</button>
+    <button id="btn2">Button 2</button>
+
+    <br />
+    <br />
+    <div
+      id="colored-div"
+      style="background-color: brown; height: 100px; width: 100px"
+    ></div>
+    <script>
+      // $("#btn1").click(function () {
+      //   $("#colored-div").hide(3000, function () {
+      //     alert("div is now disappered");
+      //   });
+      // });
+      $("#btn1").click(function () {
+        $("#colored-div")
+          .css("background-color", "red")
+          .slideUp(2000)
+          .slideDown(1000); //chaining of function
+      });
+
+      // $("#btn2").click(function () {
+      //   $("#colored-div").stop();
+      // });
+    </script>
+  </body>
+</html>
