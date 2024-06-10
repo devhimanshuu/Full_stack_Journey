@@ -25,7 +25,7 @@ My learning path follows a structured approach, covering key areas such as:
 - Frontend Development (HTML, CSS, JavaScript, Typescript)
 - Backend Development (Node.js, Express.js) 
 - Databases (MongoDB, PostgreSQL)
-- Frameworks and Libraries (React.js, Next.js, TailwindCSS, Bootstrap, Material-UI, SASS )
+- Frameworks and Libraries (React.js, Next.js, TailwindCSS, Bootstrap, Material-UI, SASS, Shadcn/ui )
 - Deployment and DevOps (Docker, AWS, kubernetes) Coming soon....
 - Version Control (Git, GitHub)
 - and much more!
